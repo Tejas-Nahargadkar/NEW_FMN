@@ -1,0 +1,156 @@
+.formm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #fffafa;
+  margin-top: 2rem;
+  
+
+
+}
+
+.downcontainer {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+    /* background-image: url(../assets/Rectangle\ 1.png); */
+
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+ .downcontainer .rightS {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  
+}
+.btn_login{
+  width: 15%;
+  border: none;
+  background: rgba(247, 112, 29, 0.8);
+  padding: .4rem;
+  border-radius: 10px;
+  color:#fff;
+}
+.downcontainer .leftS {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  margin-bottom: 3rem;
+  
+  margin: auto;
+  box-shadow: 0px 4px 20px rgba(0,0,0,.25);
+  border-radius: 30px;
+  
+}
+.leftS h2 {
+  font-weight: 500 medium;
+  
+  text-align: center;
+  
+}
+.leftS form {
+  margin-top: -1rem;
+  z-index: 999;
+  
+   
+}
+
+.leftS form label {
+  font-size: 20px;
+  font-weight: 500;
+    margin-top: 1rem;
+    display: block;
+}
+
+.leftS form input {
+  width: 100%;
+  padding: .5rem;
+  /* height: 10vh; */
+  border: 1px solid #898787;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-size: 15px;
+  
+  /* margin-left: 1rem; */
+}
+.signupbtn {
+  width: 100%;
+  border: none;
+  padding: .3rem;
+  /* height: 10vh; */
+  border-radius: 50px;
+  background: rgba(247, 112, 29, 0.39);
+  font-size: 35px;
+  font-weight: 400;
+}
+
+/* .leftS img {
+  width: 100%;
+  
+} */
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.checkbox label {
+  width: 4%;
+  margin-bottom: 1.1rem;
+}
+.checkbox p {
+  font-weight: 500;
+}
+.other {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 1rem; */
+}
+.other p {
+  font-weight: 500;
+  font-size: 35px;
+  color: #898787;
+  margin-top: 1rem;
+}
+/* .other h3{
+    color: #898787;
+    margin-top: -5rem;
+} */
+.other .buttonn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-grp-Gf {
+  width: 50%;
+  margin-left: 1rem;
+  border-radius: 30px;
+  border: none;
+  padding: 0.4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 17px;
+  color: #898787;
+  font-weight: 500;
+  border: 1px solid #898787;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+.btn-grp-Gf img {
+  width: 18%;
+}

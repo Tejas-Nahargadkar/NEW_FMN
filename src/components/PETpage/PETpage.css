@@ -1,0 +1,28 @@
+.PETpage-Container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+.Skill-Page{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 2rem;
+}
+.Skill-Select-Btn{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
+}
